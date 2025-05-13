@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Cappuccino",
+    "description": "Café espresso com leite vaporizado e espuma",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1603720220228-6f4114ecf6d2",
+    "id": "a1d12345-1111-4aa1-bc11-123456789001",
+    "createdAt": "2025-05-13T20:05:00.000Z"
+  },
+  {
+    "name": "Latte",
+    "description": "Café espresso com bastante leite vaporizado",
+    "price": 11,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+    "id": "b2e23456-2222-4bb2-cd22-234567890002",
+    "createdAt": "2025-05-13T20:05:05.000Z"
+  },
+  {
+    "name": "Mocha",
+    "description": "Mistura de café, chocolate e leite",
+    "price": 13,
+    "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
+    "id": "c3f34567-3333-4cc3-de33-345678901003",
+    "createdAt": "2025-05-13T20:05:10.000Z"
+  },
+  {
+    "name": "Espresso",
+    "description": "Café puro e forte em dose pequena",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
+    "id": "d4a45678-4444-4dd4-ef44-456789012004",
+    "createdAt": "2025-05-13T20:05:15.000Z"
+  },
+  {
+    "name": "Macchiato",
+    "description": "Espresso com uma pequena quantidade de espuma de leite",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1572449043416-55f4685c9bbd",
+    "id": "e5b56789-5555-4ee5-fg55-567890123005",
+    "createdAt": "2025-05-13T20:05:20.000Z"
+  },
+  {
+    "name": "Cold Brew",
+    "description": "Café extraído a frio por infusão lenta",
+    "price": 14,
+    "image": "https://images.unsplash.com/photo-1607623814075-69bf2f99b4c9",
+    "id": "f6c67890-6666-4ff6-gh66-678901234006",
+    "createdAt": "2025-05-13T20:05:25.000Z"
+  }
+]
