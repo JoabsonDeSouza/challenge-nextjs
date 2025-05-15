@@ -1,4 +1,4 @@
-import ProductCart from '@/app/features/products/components/ProductCart';
+import ProductCart from '@/app/features/cart/ProductCart';
 import Cart from '@/components/assets/Cart';
 import { Button } from '@/components/ui/button';
 import {

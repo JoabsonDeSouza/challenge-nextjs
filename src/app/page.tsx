@@ -44,6 +44,8 @@ export default function Home() {
     setSort('desc');
   }, []);
 
+  console.log('>>>products', isLoading, error, products);
+
   if (isLoading) return <Loading />;
 
   if (error) return <p>{error.message}</p>;
@@ -58,7 +60,10 @@ export default function Home() {
         handleSort={handleSort}
         handleClearFilters={handleClearFilters}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[30px] p-6 mb-3">
+      <div
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[30px] p-6 mb-3"
+        data-testid="product-list"
+      >
         {[...filtered]
           .sort((a, b) =>
             sort === 'asc' ? a.price - b.price : b.price - a.price,

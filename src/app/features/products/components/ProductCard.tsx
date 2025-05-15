@@ -25,6 +25,7 @@ export default function ProductCard({
   return (
     <div
       key={product.id}
+      data-testid="product-card"
       className="bg-[#d4bd8d] rounded-lg shadow-md mb-4 gap-1 flex flex-col"
     >
       <img

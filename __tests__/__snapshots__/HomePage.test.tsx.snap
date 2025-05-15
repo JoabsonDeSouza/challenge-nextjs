@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page Snapshot should match snapshot before data loads 1`] = `
+<DocumentFragment>
+  <div
+    class="container mx-auto justify-center flex items-center min-h-[calc(100vh-180px)]"
+  >
+    <p>
+      Carregando...
+    </p>
+  </div>
+</DocumentFragment>
+`;
