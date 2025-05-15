@@ -3,7 +3,7 @@ export function formatValueByCurrency(value: number): string {
     return `R$ ${(isNaN(value) ? 0 : value / 100).toLocaleString('pt-BR', {
       minimumFractionDigits: 2,
     })}`;
-  } catch (error) {
+  } catch {
     return 'R$ 0,00';
   }
 }

@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Product } from '@/domain/products/product.model';
 import { formatValueByCurrency } from '@/utils/functions';
+import Image from 'next/image';
 import { useState } from 'react';
 
 interface ProductCardProps {
@@ -27,9 +28,11 @@ export default function ProductCard({
       key={product.id}
       className="bg-[#d4bd8d] rounded-lg shadow-md mb-4 gap-1 flex flex-col"
     >
-      <img
+      <Image
         src={product.image}
         alt={product.name}
+        width={400}
+        height={192}
         className="w-full h-48 object-cover rounded-lg"
       />
       <div className="flex flex-col p-3  flex-1">

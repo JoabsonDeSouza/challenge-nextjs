@@ -5,9 +5,15 @@ import { CreateProductInput } from './product.schema';
 
 export function createProduct(data: CreateProductInput): Product {
   const product: Product = {
-    ...data,
     id: randomUUID(),
     createdAt: new Date().toISOString(),
+    quantity: 0,
+    name: data.name ?? '',
+    description: data.description ?? '',
+    price:
+      typeof data.price === 'string' ? Number(data.price) : (data.price ?? 0),
+    image: data.image ?? '',
+    category: data.category ?? '',
   };
 
   const products = readProductsFile();

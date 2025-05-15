@@ -1,8 +1,10 @@
 'use client';
 
-import axios from 'axios';
+import type { InternalAxiosRequestConfig } from 'axios';
+import axios, { AxiosError, AxiosResponse } from 'axios';
 
 const getCurrentToken = async (url: string) => {
+  console.log('>>>> URL: ', url);
   return '';
 };
 
@@ -10,8 +12,7 @@ const api = axios.create({
   baseURL: '/api',
 });
 
-// request header
-api.interceptors.request.use(async (config: any) => {
+api.interceptors.request.use(async (config: InternalAxiosRequestConfig) => {
   const token = await getCurrentToken(config.url);
 
   if (token) {
@@ -29,13 +30,12 @@ api.interceptors.request.use(async (config: any) => {
   return config;
 });
 
-// response parse
 api.interceptors.response.use(
-  (response: any) => {
+  (response: AxiosResponse) => {
     return response;
   },
-  (err: any) => {
-    return err;
+  (err: AxiosError) => {
+    return Promise.reject(err);
   },
 );
 

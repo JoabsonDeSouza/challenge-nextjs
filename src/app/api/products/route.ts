@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
 
     const product = createProduct(parsed.data);
     return NextResponse.json({ data: product });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { success: false, message: 'Erro interno' },
       { status: 500 },
