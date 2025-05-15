@@ -45,11 +45,14 @@ A ideia é deixar o projeto simples de entender, escalar e dar manutenção.
 
 ## ▶️ Como rodar o projeto localmente
 
-1. Clone o repositório:
+1. Depois de fazer Clone o repositório, instale as dependências:
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+yarn install
 ```
 
-2. Instale as dependências:
+2. Rode o servidor de desenvolvimento:
+
+```
+yarn dev
+```
