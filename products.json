@@ -43,41 +43,5 @@
     "id": "e5b56789-5555-4ee5-fg55-567890123005",
     "createdAt": "2025-05-13T20:05:20.000Z",
     "category": "Bebida"
-  },
-  {
-    "name": "Cold Brew",
-    "description": "Café extraído a frio por infusão lenta",
-    "price": 1423,
-    "image": "https://www.cafezall.com/wp-content/uploads/2025/05/cafe-Pour-Over--1024x683.jpg",
-    "id": "f6c67890-6666-4ff6-gh66-678901234006",
-    "createdAt": "2025-05-13T20:05:25.000Z",
-    "category": "Bebida"
-  },
-  {
-    "name": "Produto Teste",
-    "description": "Produto Teste ABC",
-    "price": "20.00",
-    "image": "https://cdn.shopify.com/s/files/1/1867/9411/files/Cafe_com_chocolate_2_600x600.jpg?v=1708455061",
-    "category": "Bebidas",
-    "id": "01b246c8-621d-4f50-b3fc-2ae4a7750797",
-    "createdAt": "2025-05-14T14:52:17.234Z"
-  },
-  {
-    "name": "Produto Teste 2",
-    "description": "Produto teste abc",
-    "price": "12323",
-    "image": "https://blog.biglar.com.br/wp-content/uploads/2022/08/iStock-1308045723.jpeg",
-    "category": "Café",
-    "id": "98b9f80e-4e9c-4911-87ea-fbe571eaa3ff",
-    "createdAt": "2025-05-14T14:54:40.198Z"
-  },
-  {
-    "name": "Teste 23",
-    "description": "Abc",
-    "price": "12.00",
-    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/24/947283690-cafe-doce-de-leite.jpg",
-    "category": "bebida",
-    "id": "78a3566e-3e18-410f-9048-b96ac2468db2",
-    "createdAt": "2025-05-14T22:01:37.624Z"
   }
 ]
