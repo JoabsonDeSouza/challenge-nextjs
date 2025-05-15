@@ -4,7 +4,7 @@ Esse projeto é um desafio usando Next.js 15 com API Routes. A ideia foi manter 
 
 ## 🔗 Acesse o projeto
 
-<a href="https://SEU-LINK-AQUI.vercel.app" target="_blank">
+<a href="https://challenge-nextjs-ashen.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Ver%20Projeto-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver Projeto na Vercel" />
 </a>
 
