@@ -1,6 +1,5 @@
 import { Product } from '@/domain/products/product.model';
 import { formatValueByCurrency } from '@/utils/functions';
-import Image from 'next/image';
 
 interface ProductCartProps {
   product: Product;
@@ -12,11 +11,9 @@ export default function ProductCart({ product }: ProductCartProps) {
       key={product.id}
       className="bg-[#d4bd8d] rounded-lg shadow-md mb-4 flex"
     >
-      <Image
+      <img
         src={product.image}
         alt={product.name}
-        width={112}
-        height={112}
         className="w-28 h-28 object-cover rounded-lg"
       />
       <div className="flex flex-col p-3 flex-1">

@@ -12,7 +12,7 @@
     "name": "Latte",
     "description": "Café espresso com bastante leite vaporizado",
     "price": 1120,
-    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwahCYoSMgM9zUcNoospNlOhHEfbkIeo5IxQ&s",
     "id": "b2e23456-2222-4bb2-cd22-234567890002",
     "createdAt": "2025-05-13T20:05:05.000Z",
     "category": "Bebida"
@@ -21,7 +21,7 @@
     "name": "Mocha",
     "description": "Mistura de café, chocolate e leite",
     "price": 1334,
-    "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcGrBgLwig7HgTFYgPcpBup1qdCE8pNfhHw&s",
     "id": "c3f34567-3333-4cc3-de33-345678901003",
     "createdAt": "2025-05-13T20:05:10.000Z",
     "category": "Bebida"
@@ -30,7 +30,7 @@
     "name": "Espresso",
     "description": "Café puro e forte em dose pequena",
     "price": 822,
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
+    "image": "https://s2-g1.glbimg.com/detGX6jAIpR0gJnvyYW2-o4GEmI=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/W/u/Q79lelQCKAYh1GlAu3ag/coffe-1354786-1920.jpg",
     "id": "d4a45678-4444-4dd4-ef44-456789012004",
     "createdAt": "2025-05-13T20:05:15.000Z",
     "category": "Bebida"
