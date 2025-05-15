@@ -8,7 +8,7 @@ Esse projeto é um desafio usando Next.js 15 com API Routes. A ideia foi manter 
   <img src="https://img.shields.io/badge/Ver%20Projeto-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver Projeto na Vercel" />
 </a>
 
-## Estrutura do projeto
+## 🧠 Estrutura do projeto
 
 A estrutura está organizada pra deixar claro o que é cada parte do sistema e facilitar a manutenção:
 
@@ -21,7 +21,7 @@ A estrutura está organizada pra deixar claro o que é cada parte do sistema e f
 - **services/**: camada de acesso a dados (poderia ser API externa, aqui usa arquivo local).
 - **utils/**: funções utilitárias pequenas e genéricas.
 
-## Tecnologias
+## 🚀 Tecnologias
 
 - **Next.js 15** com App Router e API Routes
 - **TypeScript**
@@ -32,7 +32,7 @@ A estrutura está organizada pra deixar claro o que é cada parte do sistema e f
 - **TailwindCSS** para estilização
 - **Radix UI/Shadcn** para componentes acessíveis
 
-## Por que essa estrutura?
+## 📦 Por que essa estrutura?
 
 Essa organização separa bem responsabilidades:
 
@@ -42,3 +42,14 @@ Essa organização separa bem responsabilidades:
 - O frontend é separado por responsabilidade (components, hooks, services etc).
 
 A ideia é deixar o projeto simples de entender, escalar e dar manutenção.
+
+## ▶️ Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+
+2. Instale as dependências:
