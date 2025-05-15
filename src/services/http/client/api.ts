@@ -1,19 +1,13 @@
-import axios from 'axios';
+'use client';
 
-// TODO: dotenv or config
-const API_URL = 'http://localhost:3000';
+import axios from 'axios';
 
 const getCurrentToken = async (url: string) => {
   return '';
 };
 
 const api = axios.create({
-  baseURL: API_URL,
-  headers: {
-    Accept: 'application/json',
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-  },
+  baseURL: '/api',
 });
 
 // request header

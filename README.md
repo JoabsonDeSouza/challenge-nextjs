@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Challenge Next.js
 
-## Getting Started
+Esse projeto é um desafio usando Next.js 15 com API Routes. A ideia foi manter tudo no mesmo repositório (frontend e backend), facilitando o deploy na Vercel sem depender de serviços externos.
 
-First, run the development server:
+## 🔗 Acesse o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<a href="https://SEU-LINK-AQUI.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Ver%20Projeto-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver Projeto na Vercel" />
+</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A estrutura está organizada pra deixar claro o que é cada parte do sistema e facilitar a manutenção:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **app/**: onde ficam as rotas da aplicação.
+- **api/**: rotas do backend (rodando como serverless functions).
+- **features/**: onde ficam os componentes e hooks específicos de cada funcionalidade (ex: produtos).
+- **components/**: componentes visuais reutilizáveis e genéricos.
+- **domain/**: definição de modelos, schemas e regras de negócio.
+- **hooks/**: hooks reutilizáveis e independentes de feature.
+- **services/**: camada de acesso a dados (poderia ser API externa, aqui usa arquivo local).
+- **utils/**: funções utilitárias pequenas e genéricas.
 
-## Learn More
+## Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** com App Router e API Routes
+- **TypeScript**
+- **React 19**
+- **Zod** para validação
+- **React Hook Form** para formulários
+- **React Query** para controle de cache e requisições
+- **TailwindCSS** para estilização
+- **Radix UI/Shadcn** para componentes acessíveis
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Por que essa estrutura?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Essa organização separa bem responsabilidades:
 
-## Deploy on Vercel
+- O domínio da aplicação (regras e dados) fica isolado.
+- Cada feature tem seu próprio espaço, o que facilita a leitura e manutenção.
+- O backend fica no próprio projeto e já sobe junto no deploy.
+- O frontend é separado por responsabilidade (components, hooks, services etc).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A ideia é deixar o projeto simples de entender, escalar e dar manutenção.

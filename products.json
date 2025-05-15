@@ -2,8 +2,8 @@
   {
     "name": "Cappuccino",
     "description": "Café espresso com leite vaporizado e espuma",
-    "price": 12,
-    "image": "https://images.unsplash.com/photo-1603720220228-6f4114ecf6d2",
+    "price": 1250,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwahCYoSMgM9zUcNoospNlOhHEfbkIeo5IxQ&s",
     "id": "a1d12345-1111-4aa1-bc11-123456789001",
     "createdAt": "2025-05-13T20:05:00.000Z",
     "category": "Bebida"
@@ -11,7 +11,7 @@
   {
     "name": "Latte",
     "description": "Café espresso com bastante leite vaporizado",
-    "price": 11,
+    "price": 1120,
     "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
     "id": "b2e23456-2222-4bb2-cd22-234567890002",
     "createdAt": "2025-05-13T20:05:05.000Z",
@@ -20,7 +20,7 @@
   {
     "name": "Mocha",
     "description": "Mistura de café, chocolate e leite",
-    "price": 13,
+    "price": 1334,
     "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
     "id": "c3f34567-3333-4cc3-de33-345678901003",
     "createdAt": "2025-05-13T20:05:10.000Z",
@@ -29,7 +29,7 @@
   {
     "name": "Espresso",
     "description": "Café puro e forte em dose pequena",
-    "price": 8,
+    "price": 822,
     "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
     "id": "d4a45678-4444-4dd4-ef44-456789012004",
     "createdAt": "2025-05-13T20:05:15.000Z",
@@ -38,8 +38,8 @@
   {
     "name": "Macchiato",
     "description": "Espresso com uma pequena quantidade de espuma de leite",
-    "price": 9,
-    "image": "https://images.unsplash.com/photo-1572449043416-55f4685c9bbd",
+    "price": 914,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAwa7w5Fc-XqHlCX4Fxc2D1deyEofvlVig4Q&s",
     "id": "e5b56789-5555-4ee5-fg55-567890123005",
     "createdAt": "2025-05-13T20:05:20.000Z",
     "category": "Bebida"
@@ -47,10 +47,37 @@
   {
     "name": "Cold Brew",
     "description": "Café extraído a frio por infusão lenta",
-    "price": 14,
-    "image": "https://images.unsplash.com/photo-1607623814075-69bf2f99b4c9",
+    "price": 1423,
+    "image": "https://www.cafezall.com/wp-content/uploads/2025/05/cafe-Pour-Over--1024x683.jpg",
     "id": "f6c67890-6666-4ff6-gh66-678901234006",
     "createdAt": "2025-05-13T20:05:25.000Z",
     "category": "Bebida"
+  },
+  {
+    "name": "Produto Teste",
+    "description": "Produto Teste ABC",
+    "price": "20.00",
+    "image": "https://cdn.shopify.com/s/files/1/1867/9411/files/Cafe_com_chocolate_2_600x600.jpg?v=1708455061",
+    "category": "Bebidas",
+    "id": "01b246c8-621d-4f50-b3fc-2ae4a7750797",
+    "createdAt": "2025-05-14T14:52:17.234Z"
+  },
+  {
+    "name": "Produto Teste 2",
+    "description": "Produto teste abc",
+    "price": "12323",
+    "image": "https://blog.biglar.com.br/wp-content/uploads/2022/08/iStock-1308045723.jpeg",
+    "category": "Café",
+    "id": "98b9f80e-4e9c-4911-87ea-fbe571eaa3ff",
+    "createdAt": "2025-05-14T14:54:40.198Z"
+  },
+  {
+    "name": "Teste 23",
+    "description": "Abc",
+    "price": "12.00",
+    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/24/947283690-cafe-doce-de-leite.jpg",
+    "category": "bebida",
+    "id": "78a3566e-3e18-410f-9048-b96ac2468db2",
+    "createdAt": "2025-05-14T22:01:37.624Z"
   }
 ]
